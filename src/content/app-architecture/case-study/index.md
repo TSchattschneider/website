@@ -155,7 +155,7 @@ The example in this case-study demonstrates how one application abides by our
 recommended architectural rules, but there are many other example apps that
 could've been written. The UI of this app leans heavily on view models
 and `ChangeNotifier`, but it could've easily been written
-with streams, or with other libraries like provided by the [`riverpod`][],
+with streams, or with other libraries provided by the [`riverpod`][],
 [`flutter_bloc`][], and [`signals`][] packages.
 The communication between layers of this app handled
 everything with method calls, including polling for new data.
